@@ -15,6 +15,7 @@ import {
   LogOut,
   Menu,
   X,
+  Cable,
 } from "lucide-react"
 import { useState } from "react"
 import { toast } from "sonner"
@@ -23,6 +24,7 @@ const navItems = [
   { href: "/dashboard", label: "Panel", icon: LayoutDashboard },
   { href: "/dashboard/devices", label: "Dispositivos", icon: Cpu },
   { href: "/dashboard/alerts", label: "Alertas", icon: Bell },
+  { href: "/dashboard/microbit-setup", label: "micro:bit", icon: Cable },
   { href: "/dashboard/profile", label: "Perfil", icon: User },
 ]
 
